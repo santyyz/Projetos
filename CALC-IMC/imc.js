@@ -7,7 +7,7 @@ function imc() {
 
     if (nome !== '' && altura !== '' && peso !== '') {
         
-        const valorIMC = (peso / (altura * altura).toFixed(1));
+        const valorIMC = Math.floor((peso / (altura * altura)));
         let classe = '';
 
         if(valorIMC < 18.5){

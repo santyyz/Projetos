@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+* {
+  font-family: 'Satisfy', cursive;
+  font-size: 28px;
+}
 
 main{
     display: flex;
@@ -11,12 +16,12 @@ main{
   .container{
     display: flex;
     flex-direction: column;
-    background: rgb(123, 248, 242);
+    background: rgb(97, 13, 214);
     width: 400px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 0 0 10px black;
   }
   
@@ -26,7 +31,8 @@ main{
     align-items: center;
     width: 100%;
     height: 50px;
-    font: bold 2.5rem serif;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
     border-bottom: solid 5px black;
     margin-bottom: 20px;
   }
@@ -41,25 +47,24 @@ main{
   .input input {
     width: 200px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     border:none;
     outline: 0;
-    font: bold 1.5rem serif;
+    font: bold 1.5rem;
     text-align: center;
   }
   
   .input label {
-    font: bold 1.5rem serif;
+    font: bold 1.5rem;
   }
   
   button{
     width: 300px;
     height: 40px;
-    font: bold 1.2rem serif;
     background: #000;
-    color: rgb(255,198,0);
+    color: rgb(255, 255, 255);
     outline: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
   }
   
@@ -69,11 +74,10 @@ main{
     align-items: center;
     width: 300px;
     height: 150px;
-    border-radius: 5px;
-    font: italic 1.5rem serif;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px black;
     background: #000;
-    color: rgb(255,198,0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
